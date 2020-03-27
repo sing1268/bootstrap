@@ -8,59 +8,269 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bootstrap This!</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Bootstrap This!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#one">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#two">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#three">Advantage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#four">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
      Harman Sandhu
     </span>
+            </div>
+        </nav>
+        <div id="one" class="jumbotron">
+            <h1 class="display-4">Bootstrap</h1>
+            <p class="lead">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+            <hr class="my-4">
+            <p>
+                Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+            </p>
+            <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" role="button">Read more</a>
         </div>
-    </nav>
-    <div class="jumbotron">
-        <h1 class="display-4">Bootstrap</h1>
-        <p class="lead">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
-        <hr class="my-4">
-        <p>
-            Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
-        </p>
-        <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" role="button">Read more</a>
-    </div>
 
 
-    <!--section 1-->
-<div class="container">
-        <div class="row">
+        <!--section 1-->
+        <div class="container shadow p-3 mb-5 bg-white rounded">
             <h2 class="display-5">Component</h2>
             <p class="lead">Bootstrap comes with an extensive components library that includes buttons and lists to carousels and modals. Components are easy to integrate into any site and require no knowledge of JavaScript to use.</p>
         </div>
 
-        <div class="row">
-            <h2 class="display-5">About</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum inventore delectus quasi veniam laborum, magni expedita pariatur, recusandae, accusamus quos debitis blanditiis dolores velit eum soluta vel ad! Sequi culpa ipsum expedita unde, nostrum perspiciatis, vitae fugit magni voluptatem itaque eum sit! Omnis nisi alias laboriosam rerum iste asperiores corporis quidem fugiat, quam illum numquam ipsa nesciunt. Deserunt ducimus voluptatum corporis, similique molestiae in laborum, ad tempora, qui hic est excepturi fugiat nobis ipsum perspiciatis dolor a. Dolores quaerat deleniti enim nam architecto cum ad accusantium neque sit consequuntur! Ipsum, consequuntur reiciendis. Corrupti quas, id placeat consectetur reprehenderit necessitatibus, eius! Esse, iusto ducimus eligendi cupiditate assumenda, architecto tenetur! Aut quibusdam culpa voluptates adipisci rem distinctio eaque, eligendi porro error maiores! Quaerat dignissimos obcaecati suscipit recusandae nesciunt esse, sequi quia voluptatem rerum libero quod quos odit quibusdam minus beatae reprehenderit facilis adipisci fuga itaque nihil debitis inventore perspiciatis. Ab, possimus!</p>
+        <div id="three" class="container shadow p-3 mb-5 bg-white rounded">
+            <h2 class="display-5">Advantage</h2>
+            <p class="lead">The Advantages of Bootstrap Development are:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Fewer Cross browser bugs </li>
+                <li class="list-group-item">A consistent framework that supports major of all browsers and CSS compatibility fixes</li>
+                <li class="list-group-item">Lightweight and customizable</li>
+                <li class="list-group-item">Responsive structures and styles </li>
+                <li class="list-group-item">Several JavaScript plugins using the jQuery </li>
+                <li class="list-group-item">Good documentation and community support</li>
+                <li class="list-group-item">Loads of free and professional templates, WordPress themes and plugins </li>
+                <li class="list-group-item">Great grid system</li>
+            </ul>
         </div>
 
-        <div class="row">
-            <h2 class="display-5">Contact</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, molestias dignissimos repellendus minus nemo, quae modi perferendis repellat error nisi beatae explicabo, cupiditate similique dolor.</p>
+
+        <div id="two" class="container shadow p-3 mb-5 bg-white rounded">
+            <h2 class="display-5">Components</h2>
+            <p class="lead">Some Examples and usage of the bootstrap in your porject will be displayed below...</p>
+            <!--        -->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Alert</h5>
+                            <p class="card-text">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+                            <div class="alert alert-primary" role="alert">
+                                A simple primary alert—check it out!
+                            </div>
+                            <div class="alert alert-secondary" role="alert">
+                                A simple secondary alert—check it out!
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                A simple success alert—check it out!
+                            </div>
+                            <div class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+                            <div class="alert alert-warning" role="alert">
+                                A simple warning alert—check it out!
+                            </div>
+                            <div class="alert alert-info" role="alert">
+                                A simple info alert—check it out!
+                            </div>
+                            <div class="alert alert-light" role="alert">
+                                A simple light alert—check it out!
+                            </div>
+                            <div class="alert alert-dark" role="alert">
+                                A simple dark alert—check it out!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Button</h5>
+                            <p class="card-text">Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                            <button type="button" class="btn btn-success">Success</button>
+                            <br>
+                            <button type="button" class="btn btn-danger">Danger</button>
+                            <button type="button" class="btn btn-warning">Warning</button>
+                            <button type="button" class="btn btn-info">Info</button>
+                            <br>
+                            <button type="button" class="btn btn-light">Light</button>
+                            <button type="button" class="btn btn-dark">Dark</button>
+                            <button type="button" class="btn btn-link">Link</button>
+
+                            <br>
+                            <hr>
+                            <br>
+                            <!--                        -->
+
+                            <button type="button" class="btn btn-outline-primary">Primary</button>
+                            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                            <button type="button" class="btn btn-outline-success">Success</button>
+                            <br>
+                            <button type="button" class="btn btn-outline-danger">Danger</button>
+                            <button type="button" class="btn btn-outline-warning">Warning</button>
+                            <button type="button" class="btn btn-outline-info">Info</button>
+                            <br>
+                            <button type="button" class="btn btn-outline-light">Light</button>
+                            <button type="button" class="btn btn-outline-dark">Dark</button>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">List Groups</h5>
+                            <p class="card-text">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</p>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+
+
+                                <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+                                <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+                                <li class="list-group-item list-group-item-success">A simple success list group item</li>
+                                <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+                                <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+                                <li class="list-group-item list-group-item-info">A simple info list group item</li>
+                                <li class="list-group-item list-group-item-light">A simple light list group item</li>
+                                <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--   -->
+        </div>
+        <div class="container shadow p-3 mb-5 bg-white rounded">
+            <p class="lead">Bootstrap let you add any qoute or citation easy in your code</p>
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Anyone who has never made a mistake has never tried anything new.</p>
+                        <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">Brainy Quote</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
 
+        <div class="container shadow p-3 mb-5 bg-white rounded">
+            <h2 class="display-5">Input Group</h2>
+            <p class="lead">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
+
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Login</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="four" class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Sign Up</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group">
+                                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender</label>
+                                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">Male</option>
+    <option value="2">Female</option>
+    <option value="3">Other</option>
+  </select>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Agree to terms and conditons</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card border border-info">
+                        <div class="card-body">
+                            <h5 class="card-title">Subscribe</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--   footer-->
+        <nav class="navbar navbar-light bg-light">
+            <p class="text-center">&copy; copyright 2020 ~ Harman</p>
+        </nav>
     </div>
-
 </body>
 
 </html>
